@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Taipei_101_from_Xiangshan_2023.jpg/1280px-Taipei_101_from_Xiangshan_2023.jpg') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.explore-button, .hero button {
+  background-color: #ff4747;
+  border: none;
+  color: white;
+  padding: 0.75em 1.5em;
+  font-size: 1em;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
