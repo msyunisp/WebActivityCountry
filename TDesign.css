@@ -14,7 +14,7 @@ body, html {
 .hero {
   position: relative;
   height: 100vh;
-  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Taipei_101_from_Xiangshan_2023.jpg/1280px-Taipei_101_from_Xiangshan_2023.jpg') center center/cover no-repeat;
+  background: url("Pictures/bacground.jpg") center center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

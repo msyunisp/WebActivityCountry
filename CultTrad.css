@@ -31,15 +31,11 @@ body {
   }
   
   .destination-card {
-    background-color: #fff7f0;
+    background-color: #fabbbb;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease;
-  }
-  
-  .destination-card:hover {
-    transform: translateY(-5px);
   }
   
   .destination-card img {
